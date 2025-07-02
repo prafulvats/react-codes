@@ -16,3 +16,4 @@ If you are developing a production application, we recommend using TypeScript wi
 3. Lazy Loading
 4. React Redux
 5. useMemo Hook implemenation
+6. useRef Hook implementation
