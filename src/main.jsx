@@ -12,6 +12,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import { appStore } from './utils/appStore'
 import Shopping from './Shopping'
+import Demo from './Demo'
 const ContactUs = lazy(() => import ('./ContactUs'))
 
 const appRouter = createBrowserRouter ([
@@ -44,7 +45,11 @@ const appRouter = createBrowserRouter ([
   {
     path: 'shopping',
     element: <Shopping />
-  }
+  },
+  {
+    path: 'demo',
+    element: <Demo />
+  },
 ])
 
 createRoot(document.getElementById('root')).render(

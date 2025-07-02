@@ -15,3 +15,4 @@ If you are developing a production application, we recommend using TypeScript wi
 2. React Router
 3. Lazy Loading
 4. React Redux
+5. useMemo Hook implemenation

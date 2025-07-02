@@ -1,0 +1,17 @@
+.demoMain {
+    width: 40%;
+    border: 1px solid black;
+    height: 10rem;
+}
+.demoMain button {
+    background-color: brown;
+    color: white;
+    border-radius: 8px;
+    margin: 1rem
+}
+.dark {
+    background-color: blue;
+}
+.light {
+    background-color: aqua;
+}
