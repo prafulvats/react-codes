@@ -13,6 +13,7 @@ import { Provider } from 'react-redux'
 import { appStore } from './utils/appStore'
 import Shopping from './Shopping'
 import Demo from './Demo'
+import Demo1 from './Demo1'
 const ContactUs = lazy(() => import ('./ContactUs'))
 
 const appRouter = createBrowserRouter ([
@@ -49,6 +50,10 @@ const appRouter = createBrowserRouter ([
   {
     path: 'demo',
     element: <Demo />
+  },
+  {
+    path: 'demo1',
+    element: <Demo1 />
   },
 ])
 
